@@ -43,6 +43,7 @@ h1 {
     align-items: center;
     -webkit-box-shadow: 4px 4px 5px 1px rgba(0,0,0,0.76); 
     box-shadow: 4px 4px 5px 1px rgba(0,0,0,0.76);
+    text-overflow: ellipsis;
 }
 
 .number {
@@ -56,7 +57,6 @@ h1 {
 .buzz {
     background-color: #ffd166;
 }
-
 
 .fizzbuzz {
     background-color: #f0466f;

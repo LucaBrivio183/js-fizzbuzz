@@ -1,6 +1,6 @@
 //strict rules
 
-'use strict'
+'use strict';
 
 //defining  ul variable
 
@@ -12,7 +12,7 @@ for ( let i = 1; i <= 100; i++ ){
 
      const liElement = document.createElement('li');
 
-    if(  i % 15 === 0 ) {
+    if( i % 15 === 0 ) {
         let classIndex = 'fizzbuzz';
         console.log('fizzbuzz');
         liElement.append('fizzbuzz');
